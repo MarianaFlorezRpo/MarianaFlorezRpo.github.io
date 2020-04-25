@@ -30,7 +30,9 @@
 						</li>
 						{% assign current = page.url | downcase | split: '/' %}
 						<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">HOLA</a></li>
+						{% assign current = page.url | downcase | split: '/' %}
 						<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">COMO</a></li>
+						{% assign current = page.url | downcase | split: '/' %}
 						<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">ESTAS</a></li>
 					</ul>
 				</nav>
