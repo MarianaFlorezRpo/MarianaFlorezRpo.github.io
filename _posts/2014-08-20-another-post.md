@@ -1,5 +1,5 @@
 ---
-title: Lorem Ipsum Dolor Sit Amet
+title: MARIANA
 featured: /assets/images/pic02.jpg
 layout: post
 ---
